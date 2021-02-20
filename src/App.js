@@ -1,5 +1,6 @@
 import logo from './assets/YBLogo.png';
 import './App.css';
+import {Example} from './components/Menu/Menu';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <img src={logo} alt="logo" />
+        <Example></Example>
         <p>
           ילנה בולדין fdsfdssfdsfsdds
             fsdfdsfsd
