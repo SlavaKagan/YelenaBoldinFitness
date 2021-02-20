@@ -8,7 +8,12 @@ function App() {
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <img src={logo} alt="logo" />
         <p>
-          ילנה בולדין מאמנת מוסמכת באיזור המרכז
+          ילנה בולדין fdsfdssfdsfsdds
+            fsdfdsfsd
+            fdssdfds
+            fsdsdfsd
+            dfss
+            מאמנת מוסמכת באיזור המרכז
         </p>
       </header>
     </div>

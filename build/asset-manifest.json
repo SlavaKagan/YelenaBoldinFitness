@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Yelena-Boldin-Fitness/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Yelena-Boldin-Fitness/static/js/main.b6cbf006.chunk.js",
+    "main.js.map": "/Yelena-Boldin-Fitness/static/js/main.b6cbf006.chunk.js.map",
+    "runtime-main.js": "/Yelena-Boldin-Fitness/static/js/runtime-main.eb671aa0.js",
+    "runtime-main.js.map": "/Yelena-Boldin-Fitness/static/js/runtime-main.eb671aa0.js.map",
+    "static/js/2.d2acae0c.chunk.js": "/Yelena-Boldin-Fitness/static/js/2.d2acae0c.chunk.js",
+    "static/js/2.d2acae0c.chunk.js.map": "/Yelena-Boldin-Fitness/static/js/2.d2acae0c.chunk.js.map",
+    "index.html": "/Yelena-Boldin-Fitness/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Yelena-Boldin-Fitness/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d2acae0c.chunk.js.LICENSE.txt": "/Yelena-Boldin-Fitness/static/js/2.d2acae0c.chunk.js.LICENSE.txt",
+    "static/media/YBLogo.2434501e.png": "/Yelena-Boldin-Fitness/static/media/YBLogo.2434501e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb671aa0.js",
+    "static/js/2.d2acae0c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b6cbf006.chunk.js"
+  ]
+}
