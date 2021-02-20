@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/YelenaBoldinFitness/static/css/main.7d180cbf.chunk.css",
-    "main.js": "/YelenaBoldinFitness/static/js/main.6d831cde.chunk.js",
-    "main.js.map": "/YelenaBoldinFitness/static/js/main.6d831cde.chunk.js.map",
+    "main.js": "/YelenaBoldinFitness/static/js/main.83b74f14.chunk.js",
+    "main.js.map": "/YelenaBoldinFitness/static/js/main.83b74f14.chunk.js.map",
     "runtime-main.js": "/YelenaBoldinFitness/static/js/runtime-main.566ef92d.js",
     "runtime-main.js.map": "/YelenaBoldinFitness/static/js/runtime-main.566ef92d.js.map",
-    "static/js/2.ad5b78a8.chunk.js": "/YelenaBoldinFitness/static/js/2.ad5b78a8.chunk.js",
-    "static/js/2.ad5b78a8.chunk.js.map": "/YelenaBoldinFitness/static/js/2.ad5b78a8.chunk.js.map",
+    "static/css/2.96d7a7d6.chunk.css": "/YelenaBoldinFitness/static/css/2.96d7a7d6.chunk.css",
+    "static/js/2.49352eb1.chunk.js": "/YelenaBoldinFitness/static/js/2.49352eb1.chunk.js",
+    "static/js/2.49352eb1.chunk.js.map": "/YelenaBoldinFitness/static/js/2.49352eb1.chunk.js.map",
     "index.html": "/YelenaBoldinFitness/index.html",
+    "static/css/2.96d7a7d6.chunk.css.map": "/YelenaBoldinFitness/static/css/2.96d7a7d6.chunk.css.map",
     "static/css/main.7d180cbf.chunk.css.map": "/YelenaBoldinFitness/static/css/main.7d180cbf.chunk.css.map",
-    "static/js/2.ad5b78a8.chunk.js.LICENSE.txt": "/YelenaBoldinFitness/static/js/2.ad5b78a8.chunk.js.LICENSE.txt",
+    "static/js/2.49352eb1.chunk.js.LICENSE.txt": "/YelenaBoldinFitness/static/js/2.49352eb1.chunk.js.LICENSE.txt",
     "static/media/YBLogo.2434501e.png": "/YelenaBoldinFitness/static/media/YBLogo.2434501e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.566ef92d.js",
-    "static/js/2.ad5b78a8.chunk.js",
+    "static/css/2.96d7a7d6.chunk.css",
+    "static/js/2.49352eb1.chunk.js",
     "static/css/main.7d180cbf.chunk.css",
-    "static/js/main.6d831cde.chunk.js"
+    "static/js/main.83b74f14.chunk.js"
   ]
 }
