@@ -8,5 +8,12 @@
   "Cakes": "עוגות למתאמנים",
   "Contact": "צור קשר",
   "Facebook": "https://www.facebook.com/lena.boldin",
-  "Instagram": "https://www.instagram.com/yelenaboldin/"
+  "Instagram": "https://www.instagram.com/yelenaboldin/",
+  "ContactURL": "/YelenaBoldinFitness/contact",
+  "CakeURL": "/YelenaBoldinFitness/cake",
+  "ClipsURL": "/YelenaBoldinFitness/clip",
+  "GalleryURL": "/YelenaBoldinFitness/gallery",
+  "NaturopathyURL": "/YelenaBoldinFitness/naturopathy",
+  "TrainingURL": "/YelenaBoldinFitness/training",
+  "AboutURL": "/YelenaBoldinFitness/about"
 }

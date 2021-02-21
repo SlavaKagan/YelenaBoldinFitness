@@ -18,16 +18,16 @@ export function MenuBar() {
 	return (
 		<>
 		<Navbar bg="dark" variant="dark">
-			<SocialIcon url={Strings.Facebook} />
-			<SocialIcon url={Strings.Instagram} />
+			<SocialIcon url= {Strings.Facebook} />
+			<SocialIcon url= {Strings.Instagram} />
 			<Nav className="mr-auto">
-				<Nav.Link href="/contact">{Strings.Contact}</Nav.Link>
-				<Nav.Link href="/cake">{Strings.Cakes}</Nav.Link>
-				<Nav.Link href="/clips">{Strings.Clips}</Nav.Link>
-				<Nav.Link href="/gallery">{Strings.Gallery}</Nav.Link>
-				<Nav.Link href="/naturopathy">{Strings.Naturopathy}</Nav.Link>
-				<Nav.Link href="/training">{Strings.Trainings}</Nav.Link>
-				<Nav.Link href="/about">{Strings.About}</Nav.Link>
+				<Nav.Link href={Strings.ContactURL}> {Strings.Contact}</Nav.Link>
+				<Nav.Link href={Strings.CakeURL}> {Strings.Cakes}</Nav.Link>
+				<Nav.Link href={Strings.ClipsURL}> {Strings.Clips}</Nav.Link>
+				<Nav.Link href={Strings.GalleryURL}> {Strings.Gallery}</Nav.Link>
+				<Nav.Link href={Strings.NaturopathyURL}> {Strings.Naturopathy}</Nav.Link>
+				<Nav.Link href={Strings.TrainingURL}> {Strings.Trainings}</Nav.Link>
+				<Nav.Link href={Strings.AboutURL}>{Strings.About}</Nav.Link>
 			</Nav>
 			<Navbar.Brand href="/home">{Strings.Home}</Navbar.Brand>
 		</Navbar>
@@ -35,13 +35,13 @@ export function MenuBar() {
 		<Router>
 			<Route exact path="/" render={ () => <Redirect to="/home"/> }/>
 			<Route exact path="/home" component={ Home }/>
-			<Route exact path="/about" component={ About }/>
-			<Route exact path="/training" component={ Training }/>
-			<Route exact path="/naturopathy" component={ Naturopathy }/>
-			<Route exact path="/gallery" component={ Gallery }/>
-			<Route exact path="/clips" component={ Clips }/>
-			<Route exact path="/cake" component={ Cake }/>
-			<Route exact path="/contact" component={ Contact }/>
+			<Route exact path={Strings.AboutURL} component={ About }/>
+			<Route exact path={Strings.TrainingURL} component={ Training }/>
+			<Route exact path={Strings.NaturopathyURL} component={ Naturopathy }/>
+			<Route exact path={Strings.GalleryURL} component={ Gallery }/>
+			<Route exact path={Strings.ClipsURL} component={ Clips }/>
+			<Route exact path={Strings.CakeURL} component={ Cake }/>
+			<Route exact path={Strings.ContactURL} component={ Contact }/>
 			</Router>
 		</>
 	);
