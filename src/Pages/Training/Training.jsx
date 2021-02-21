@@ -15,8 +15,8 @@ export function Training() {
             <img src={hiit} alt="logo" />
             <img src={spining} alt="logo" />
             <img src={trx} alt="logo" />
-            <img src={kickbox1} alt="logo" />
-            <img src={kickbox2} alt="logo" />
+            <img src={kickbox1} alt="logo" width="15%" height="10%"/>
+            <img src={kickbox2} alt="logo" width="15%" height="10%" />
         </div>
     );
 }

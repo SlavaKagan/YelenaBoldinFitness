@@ -13,6 +13,7 @@ import { Training } from '../../Pages/Training/Training';
 import { Home } from '../../Pages/Home/Home';
 import { Clips } from '../../Pages/Clips/Clips';
 import { SocialIcon } from 'react-social-icons';
+import logo from "../../assets/YBLogo.png";
 
 export function MenuBar() {
 	return (
@@ -30,6 +31,7 @@ export function MenuBar() {
 				<Nav.Link href={Strings.AboutURL}>{Strings.About}</Nav.Link>
 			</Nav>
 			<Navbar.Brand href="/home">{Strings.Home}</Navbar.Brand>
+			<img src={logo} alt="logo3" width="15%" height="10%" />
 		</Navbar>
 
 		<Router>
