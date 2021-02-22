@@ -13,6 +13,7 @@ import { Home } from '../../Pages/Home/Home';
 import { Clips } from '../../Pages/Clips/Clips';
 import { SocialIcon } from 'react-social-icons';
 import logo from "../../assets/YBLogo.png";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export function MenuBar() {
 	return (
