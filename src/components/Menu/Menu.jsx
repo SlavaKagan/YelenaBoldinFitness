@@ -3,7 +3,6 @@ import '@szhsin/react-menu/dist/index.css';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 import { Nav, Navbar } from 'react-bootstrap'
 import * as Strings from '../../utils/strings.json';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { About } from '../../Pages/AboutMe/About';
 import { Contact } from '../../Pages/Contact/Contact';
 import { Cake } from '../../Pages/Cakes/Cakes';
