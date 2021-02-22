@@ -18,19 +18,20 @@ export function MenuBar() {
 	return (
 		<>
 		<Navbar bg="dark" variant="dark">
-			<SocialIcon url= {Strings.Facebook} />
-			<SocialIcon url= {Strings.Instagram} />
 			<Nav className="mr-auto">
-				<Nav.Link href={Strings.ContactURL}> {Strings.Contact}</Nav.Link>
-				<Nav.Link href={Strings.CakeURL}> {Strings.Cakes}</Nav.Link>
-				<Nav.Link href={Strings.ClipsURL}> {Strings.Clips}</Nav.Link>
-				<Nav.Link href={Strings.GalleryURL}> {Strings.Gallery}</Nav.Link>
-				<Nav.Link href={Strings.NaturopathyURL}> {Strings.Naturopathy}</Nav.Link>
-				<Nav.Link href={Strings.TrainingURL}> {Strings.Trainings}</Nav.Link>
+				<SocialIcon url= {Strings.Facebook} />
+				<SocialIcon url= {Strings.Instagram} />
+				<Navbar.Brand href={Strings.HomeURL}>{Strings.Home}</Navbar.Brand>
 				<Nav.Link href={Strings.AboutURL}>{Strings.About}</Nav.Link>
+				<Nav.Link href={Strings.TrainingURL}> {Strings.Trainings}</Nav.Link>
+				<Nav.Link href={Strings.NaturopathyURL}> {Strings.Naturopathy}</Nav.Link>
+				<Nav.Link href={Strings.GalleryURL}> {Strings.Gallery}</Nav.Link>
+				<Nav.Link href={Strings.ClipsURL}> {Strings.Clips}</Nav.Link>
+				<Nav.Link href={Strings.CakeURL}> {Strings.Cakes}</Nav.Link>
+				<Nav.Link href={Strings.ContactURL}> {Strings.Contact}</Nav.Link>
+				<img src={logo} alt="logo3" width="15%" height="10%" />
 			</Nav>
-			<Navbar.Brand href={Strings.HomeURL}>{Strings.Home}</Navbar.Brand>
-			<img src={logo} alt="logo3" width="15%" height="10%" />
+
 		</Navbar>
 
 		<Router>

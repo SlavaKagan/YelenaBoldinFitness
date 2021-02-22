@@ -9,7 +9,7 @@ export function Gallery() {
     return (
         <div className="App">
             <p>
-                עוגות
+                גלריה
             </p>
             <img src={YB1} alt="logo" width="15%" height="10%"/>
             <img src={YB2} alt="logo" width="15%" height="10%"/> <br/> <br/>

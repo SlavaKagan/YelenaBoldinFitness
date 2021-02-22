@@ -1,6 +1,6 @@
-
 import './App.css';
 import {MenuBar} from './components/Menu/Menu';
+import React from "react";
 
 function App() {
   return (
