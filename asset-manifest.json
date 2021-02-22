@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/YelenaBoldinFitness/static/css/main.7d180cbf.chunk.css",
-    "main.js": "/YelenaBoldinFitness/static/js/main.a2dfebf4.chunk.js",
-    "main.js.map": "/YelenaBoldinFitness/static/js/main.a2dfebf4.chunk.js.map",
+    "main.js": "/YelenaBoldinFitness/static/js/main.3810930a.chunk.js",
+    "main.js.map": "/YelenaBoldinFitness/static/js/main.3810930a.chunk.js.map",
     "runtime-main.js": "/YelenaBoldinFitness/static/js/runtime-main.566ef92d.js",
     "runtime-main.js.map": "/YelenaBoldinFitness/static/js/runtime-main.566ef92d.js.map",
     "static/css/2.006849e5.chunk.css": "/YelenaBoldinFitness/static/css/2.006849e5.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.006849e5.chunk.css",
     "static/js/2.3bf569f7.chunk.js",
     "static/css/main.7d180cbf.chunk.css",
-    "static/js/main.a2dfebf4.chunk.js"
+    "static/js/main.3810930a.chunk.js"
   ]
 }
