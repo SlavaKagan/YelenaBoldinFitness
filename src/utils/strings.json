@@ -15,5 +15,6 @@
   "GalleryURL": "/YelenaBoldinFitness/gallery",
   "NaturopathyURL": "/YelenaBoldinFitness/naturopathy",
   "TrainingURL": "/YelenaBoldinFitness/training",
-  "AboutURL": "/YelenaBoldinFitness/about"
+  "AboutURL": "/YelenaBoldinFitness/about",
+  "HomeURL": "/YelenaBoldinFitness/home"
 }

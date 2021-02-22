@@ -30,13 +30,13 @@ export function MenuBar() {
 				<Nav.Link href={Strings.TrainingURL}> {Strings.Trainings}</Nav.Link>
 				<Nav.Link href={Strings.AboutURL}>{Strings.About}</Nav.Link>
 			</Nav>
-			<Navbar.Brand href="/home">{Strings.Home}</Navbar.Brand>
+			<Navbar.Brand href={Strings.HomeURL}>{Strings.Home}</Navbar.Brand>
 			<img src={logo} alt="logo3" width="15%" height="10%" />
 		</Navbar>
 
 		<Router>
-			<Route exact path="/" render={ () => <Redirect to="/home"/> }/>
-			<Route exact path="/home" component={ Home }/>
+			<Route exact path="/" render={ () => <Redirect to={Strings.HomeURL}/> }/>
+			<Route exact path={Strings.HomeURL} component={ Home }/>
 			<Route exact path={Strings.AboutURL} component={ About }/>
 			<Route exact path={Strings.TrainingURL} component={ Training }/>
 			<Route exact path={Strings.NaturopathyURL} component={ Naturopathy }/>
